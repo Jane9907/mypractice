@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+.btn {
+	background:url(../sfeers-png/pause.png);
+	width: 32px;
+	height: 32px;
+	border: none;
+	margin: 0 9px;
+}
+.stop {
+	background: url(../sfeers-png/stop.png);
+	width: 32px;
+	height: 32px;
+	border: none;
+	margin: 0 9px;
+}
+.forward {
+	background: url(../sfeers-png/forward.png);
+	width: 32px;
+	height: 32px;
+	border: none;
+	margin: 0 9px;
+}
+.backward {
+	background: url(../sfeers-png/rewind.png);
+	width: 32px;
+	height: 32px;
+	border: none;
+	margin: 0 9px;
+}
+.muted {
+	background: url(../sfeers-png/sound.png);
+	width: 32px;
+	height: 32px;
+	border: none;
+	margin: 0 9px;
+}
+.fast {
+	background: url(../sfeers-png/next.png);
+	width: 32px;
+	height: 32px;
+	border: none;
+	margin: 0 9px;
+}
+.slow {
+	background: url(../sfeers-png/previous.png);
+	width: 32px;
+	height: 32px;
+	border: none;
+	margin: 0 9px;
+}
+.makeBig {
+	background: url(../sfeers-png/magnifier-zoom-in.png);
+	width: 32px;
+	height: 32px;
+	border: none;
+	margin: 0 9px;
+}
+.makeNormal {
+	background: url(../sfeers-png/rotate.png);
+	width: 32px;
+	height: 32px;
+	border: none;
+	margin: 0 9px;
+}
+.makeSmall {
+	background: url(../sfeers-png/magnifier-zoom-out.png);
+	width: 32px;
+	height: 32px;
+	border: none;
+	margin: 0 9px;
+

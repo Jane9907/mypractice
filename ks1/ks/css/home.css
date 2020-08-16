@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+.add_tab3 .t {
+    overflow: hidden;
+    _height: 100%;
+    background: url(../images/female/bg_5.gif) repeat-x 0 0;
+	font: 12px/24px Arial,'宋体';
+    color: #010101;
+    background: #FFF;
+}
+* {
+    margin: 0;
+    padding: 0;
+}

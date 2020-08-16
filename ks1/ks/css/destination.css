@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+
+.page {
+    text-align: center;
+    padding: 23px 0;
+    font-size: 14px;
+    line-height: 16px;
+}

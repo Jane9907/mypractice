@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>tour</title>
+<link rel="stylesheet" type="text/css" href="../css/ks1-common.css">
+<link rel="stylesheet" type="text/css" href="../css/ks1-main.css">
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<ul class="nav">
+  <img src="../images/bb.png" width="100%" style="position:absolute;left:40px;top:-15px;" >
+  <br>
+  <li><a href="../Home.html"><span>首页</span></a></li>
+  <li><a href="../destination.html"><span>目的地</span></a></li>
+  <li><a href="../hotel.html"><span>酒店</span></a></li>
+  <li><a href="../ticket.html"><span>机票</span></a></li>
+  <li><a href="../evaluate.html"><span>点评</span></a></li>
+  <br>
+  <p>更多内容<br>请扫描下方二维码</p>
+  <img src="../images/code.jpg" width="70%" style="position:absolute;left:16px;top:470px;">
+</ul>
+<section class="qui-page">
+  <header class="qui-header">
+    <h1>TRAVEL</h1>
+  </header>
+ 
+ 
+ <!-- TemplateBeginEditable name="main" --> 
+ <div id="main" style="height:1425px; width:640px; padding-top:85px;"></div>
+ <!-- TemplateEndEditable --> 
+  
+  
+   <!--footer-->
+  <footer class="qui-footerbasic">
+  Copyrights 2018 叶梦影计算机-1740706154旅游网站 | 系版权所有<a href="#"></a>
+    <p class="switchstyle"><span>电脑版</span><a href="#"><span>手机版</span></a><span><a href="#">APP</a></span></p>
+  </footer>
+  <!--footer end--> 
+</section>
+</body>
+</html>

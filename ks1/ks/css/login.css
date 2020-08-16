@@ -1,0 +1,178 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+
+.login {
+	width: 400px;
+	height: 385px;
+	border: 1px solid #ccc;
+	margin: 20px;
+	position:relative;
+	top: 10%;
+	left: 20%;
+}
+.login h4 {
+	color: #400000;
+	text-align: center;
+	margin: 20px 0 30px 0;/*font-weight:normaly;*/
+	position:relative;
+	left:-80px;
+}
+
+/*============*/
+.login .username, .login .password {
+	width: 304px;
+	height: 38.63px;
+	border: 1px solid #ccc;
+	position: relative;
+	margin: 0 0 0 48px;
+}
+.login .username label {
+	width: 38px;
+	height: 38px;
+	background: url(../images/pwd-icons-new.png) 0 -173px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-right:1px solid #ccc;
+}
+.login .username input{
+	width:265px;
+	padding:10px 0 10px 0;
+	position:absolute;
+	left:39px;
+	border:none;
+}
+.login .password label {
+	width: 38px;
+	height: 38px;
+	background:url(../images/pwd-icons-new.png) -48px -173px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-right:1px solid #ccc;
+}
+.login .password input{
+	width:265px;
+	padding:10px 0 10px 0;
+	position:absolute;
+	left:39px;
+	border:none;
+}
+.login .username label, .login .password label {
+	width: 38px;
+	height: 38px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.login .password label {
+	background-position: -48px 0;
+}
+.login .username input, .login .password input {
+	width: 255px;
+	padding: 10px 0 10px 10px;
+	position: absolute;
+	border: none;
+}
+.login .in {
+	width: 304px;
+	height: 38px;
+	position: relative;
+	color: #FFF;
+	background:#03C;
+	border-radius: 8px;
+	border: none;
+	font-size: 18px;
+	margin: 0 0 5px 48px;
+	text-decoration:none;
+}
+.login .in:hover {
+	background:#06F;
+}
+a.back{
+	display:inline-block;
+	width: 304px;
+	height: 38px;
+	position: relative;
+	background:#03C;
+	text-align:center;
+	text-decoration:none;
+	border-radius: 8px;
+	font-size: 18px;
+	margin: 2px 0 5px 48px;
+	color:#FFF;
+}
+a.back:hover{
+	background:#06f;
+}
+/*============*/
+.login .last {
+	position: absolute;
+	color: #400000;
+}
+
+
+.login .last .me {
+	width: 400px;
+	height: 15px;
+	position: absolute;
+	top: 10px;
+	left: 50px;
+}
+.login .last .me label {
+	width: 400px;
+	height: 15px;
+	position: absolute;
+	top: 0px;
+	left: 20px;
+	color:#039;
+}
+.login .last .aa {
+	width: 400px;
+	height: 15px;
+	position: absolute;
+	left: 220px;
+	top: 10px;
+	color:#039;
+}
+.login .last .bb {
+	width: 400px;
+	height: 15px;
+	position: absolute;
+	left: 300px;
+	top: 10px;
+	color:#039;
+}
+.login .last .bb a{
+	color:#039;
+	text-decoration:none;
+}
+.login .last .me:hover,.login .last .aa:hover,.login .last .bb:hover{
+	color:#d4865d;
+	text-decoration:underline;
+}
+
+/*============*/
+ .phone {
+	width: 400px;
+	height: 300px;
+	margin: 20px;
+	position: absolute;
+	top: -6%;
+	right: 1%;
+}
+
+.phone  h4 {
+	color:#CCC;
+	text-align: center;
+	margin: 20px 0 30px 0;/*font-weight:normaly;*/
+	position:relative;
+	left:80px;
+}
+
