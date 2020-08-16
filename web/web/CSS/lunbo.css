@@ -1,0 +1,24 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+#activity-box {
+	background: #fff;
+	max-width: 1280px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+
+
+}
+#activity-box #slide {
+	height: 700px;
+	overflow:hidden;
+	border-bottom: 4px #ACC8B5 solid;
+}
+.carousel-control.right, .carousel-control.left{
+	background-image:none;
+}
+.carousel-inner > .item > img{
+	width:100%;
+}

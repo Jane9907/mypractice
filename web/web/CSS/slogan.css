@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;
+}
+#slogan{
+    padding: 6.89655vw 3.44828%;
+    background: #4b5389;
+    max-width: 1280px;
+margin-left: auto;
+margin-right: auto;
+position: relative;
+margin-bottom: 40px;
+}
+

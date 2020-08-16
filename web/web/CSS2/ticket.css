@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #f7f7f7;
+}
+
+#search{
+    background-color: #fff;
+    max-width:350px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-bottom: 24px;
+}
+#search-option-switch{
+    margin-top: 20px;
+    font-size: 15px;
+    border: 1px #e3d7d7 solid;
+    padding: 8px;
+  max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+label{
+   font-size: 15px;
+    width: 300px;
+    font-weight: 100;
+}
+#search-box-m {
+   max-width:350px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  margin-top: -30px;
+    border: 2px #e1e1e8 solid;
+    padding: 10px;
+}
+
+.seo_footer {
+    margin: 10px 0 30px;
+    padding: 10px;
+    border: 1px solid #DEDEDE;
+    color: #999;
+    clear: both;
+	font-family: "Microsoft YaHei",Arial,sans-serif;
+    font-size: 14px;
+}
+.seo_footer p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.seo_footer a:-webkit-any-link {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: auto;
+}
+.seo_footer h3{
+    font-family: Simsun,sans-serif;
+}
+.seo_footer .p_link3:href{
+	color:#33F;
+}
+
+.search-controls {
+
+    height: auto;
+    padding-bottom: 20px;
+}

@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	padding:0;
+	margin:0;
+}
+.Message-Board{
+	max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-bottom: 24px;
+}
+#liuyan{
+    width: 180px;
+    float: left;
+    height: 200px;
+    border-left: 1px #ccc solid;
+    padding: 10px;
+
+}

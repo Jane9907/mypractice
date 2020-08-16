@@ -1,0 +1,202 @@
+@charset "UTF-8";
+body{ color:#453d54;}
+
+.bgB { height: 450px; position: relative; width: 100%; }/*banner背景*/
+
+/*首页搜索框 start*/
+.home_search_flight { height:450px !important; margin:auto; min-width:980px; z-index:1;padding-top:0 !important;}
+.banner{float:right; height:250px; width:300px;margin-top: 90px;}
+.search-controls{ background:rgba(69, 61, 84, 0.85) none repeat scroll 0 0; background:#453D54\9; color:#fff;  height: auto; width:754px; position:relative; padding:15px 20px; float:left; clear:both; border-radius:8px; position:absolute; z-index:10; margin-top: 90px;border:none;}
+
+@media (max-width:1189px) {.search-controls{ width:624px;}}
+.multi{ height:auto!important; box-shadow:0px 0px 3px #d6d9dd;}
+.search-controlsAD, .bannerAD{ margin-top:20px;!important;}
+.home_search_flight .rom{padding:8px 3%; width:94%; height:40px; float:left; clear:both; }
+.cityboxA{ width:100%; position:relative;}
+.citybox{ width:48%; position:relative;}
+
+.search-controls .type label{ margin-right:10px;}
+.search-controls .type label, .search-controls .type a{ color: #7fd7e8;}
+.search-places{ display:table; content:""; position:relative; width:100%; margin:15px 0;}
+.search-places-f1 {margin-top: 10px; margin-bottom: 0;}
+.search-places-f2 {margin-top: 15px; margin-bottom: 4px;}
+.home_search_flight .depart input, .home_search_flight .return input, .home_search_flight .origin input, .home_search_flight .destination input, .home_search_flight input[type="text"]{ background-color:#fff; border:none; border-radius:3px; box-sizing:border-box; height:36px;  padding:8px 8px 8px 32px; margin:0; width:100%; position:relative; font:16px "Microsoft YaHei","黑体","simsun"  ; line-height:19px; font-weight:600; color:#453D54;}
+
+.search-dates .return.disabled input[type="text"]{ background-color: #dfdce3;  border: 1px solid #b6b1bd;  color: #b6b1bd; font-weight:normal;}/*单程*/
+
+
+.search-places .origin, .search-places .destination{ width:48%; position:relative;}/*出发、目的城市*/
+.search-places .place-label { color: #B6B1BD; font-size: 13px; margin-bottom:3px; } /*搜索框上面的标题*/
+.search-places .swap-exchange{ background: rgba(0, 0, 0, 0) none ; border:none; cursor: pointer; height: 36px; left: 47.5%; padding: 0; position: absolute; top: 20px; width: 4%;}/*切换城市*/
+.search-places .destination .anywhere{ background-color:#ffd445; color:#544c63; border:none;  border-radius: 15px; cursor: pointer; font-size: 12px;left: 28px;  padding: 3px 16px; position: absolute; top: 24px; z-index: 9; font-weight:bold;}
+.search-places .destination .visafree{ background-color:#00d775; color:#fff; border:none;  border-radius: 15px; cursor: pointer; font-size: 12px;left: 28px;  padding: 3px 16px; position: absolute; top: 24px; z-index: 9; font-weight:bold;}
+
+/*======搜索日期======*/
+.search-dates{ clear: left; float: left; width: 48%;}
+.search-dates .depart, .search-dates .return { position: relative; width: 48%;}
+.search-dates .depart-no input{ background-color:#f6f5f7;}
+
+
+/*======人数、舱位======*/
+.search-pax-cabin-class { margin: 0 0 16px; width: 48%;}
+.cabin-class-travellers-trigger {
+    background-color: #fff; color:#453D54;
+    border: medium none;
+    border-radius: 2px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 16px;
+    height: 36px;
+    margin: 0;
+    padding: 8px;
+    position: relative;
+    text-align: left;
+    width: 100%;
+}
+
+.cabin-class-travellers-trigger .down-arrow, .dropdown i{ border-radius:3px; height:0;  width:0;  overflow: hidden;  font-size: 0; line-height: 0;
+    border-color:#898294 transparent transparent transparent; border-style:solid dashed dashed dashed; border-width:10px;background-image: none; }/*三角形、向下*/
+
+
+.wc-button, .wc-button-large {
+    background: #aae700 linear-gradient(rgba(255, 255, 255, 0.5) 20%, rgba(255, 255, 255, 0.1) 80%) repeat scroll 0 0;
+    border: 1px solid #55bd00;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #34363d;
+    cursor: pointer;
+    display: inline-block;
+    outline: 0 none;
+    overflow: visible;
+    position: relative;
+    text-decoration: none;
+    transition: background-color 0.1s ease-in 0s;
+}
+
+.search-controls .compare-units{ width:48%; float:left;}
+.search-controls .compare-units > span { color: #b6b1bd; font-weight: 700;}
+.search-controls .compare-units li { float: left; list-style: outside none none; margin: 0 10px 0 0;}
+
+.large-buttonB{
+	background-image:linear-gradient(to top,#00BD68 ,#00D775);
+	background-color:#00BD68\9;
+	border-radius:22px;  color:#fff; border:none 0; cursor:pointer; font:20px "Microsoft YaHei","黑体","simsun";  width:170px; height:44px; line-height:22px; position:relative; text-align:left; text-indent:26px; }
+
+.large-buttonB:hover{
+	background-image:linear-gradient(to top,#00D775,#00D775);
+	background-color:#00D775\9;
+}
+
+.large-buttonB::after{ background:url(../images) no-repeat; background-position:-375px -55px; width:18px; height:16px; display:block; position:absolute; top:14px; right:16%; content: "";}
+
+/*searchbox icon*/
+.search-places i[class$="-icon"]{ background-image: url(../images); background-repeat:no-repeat; width:20px; height:18px; display:inline-block; position:absolute; left:8px; bottom:9px; font-family: Microsoft YaHei,Arial,STXihei,"微软雅黑"; }
+.origin-icon{ background-position:-190px 1px; }
+.destination-icon{ background-position:-283px 1px;}
+.oneDes-icon{ background-position:-372px -120px;}
+.exchange-icon{ background-position:0 0 ;}
+.exchange-icon:hover{ background-position:-97px 0 ;}
+.dates-icon{ background-position:-373px 1px ;}
+
+.adulticon, .childrenicon, .infantsicon{background-image: url(../images); background-repeat:no-repeat; width:18px; height:18px; display:inline-block;}
+.adulticon{ background-position:0 -54px ;}
+.childrenicon{ background-position:-100px -54px ;   }
+.infantsicon{ background-position:-190px -53px ;}
+
+.button_search{ width:48%; height:36px; font-size:18px; color:#fff; background:#f49e17; border:none 0; cursor:pointer; box-shadow:0px 2px 2px #e5e5e5; -moz-box-shadow:0px 2px 2px #dfdfdf; -webkit-box-shadow:0px 2px 2px #dfdfdf; font-family:"Microsoft YaHei","黑体","simsun";  outline:0; }
+.button_search:hover{ background:#f09400; border:none 0; cursor:pointer; box-shadow:0px 2px 2px #c7c7c7; -moz-box-shadow:0px 2px 2px #c7c7c7;-webkit-box-shadow:0px 2px 2px #c7c7c7;  outline:0;}/*搜索按纽*/
+
+.button_map{ border:none 0; cursor:pointer; background:#fafafa; height:36px; font-size:17px; color:#00b2d6; text-align:center; box-shadow:0px 2px 2px #e5e5e5; -moz-box-shadow:0px 2px 2px #dfdfdf; -webkit-box-shadow:0px 2px 2px #dfdfdf; font-family:"Microsoft YaHei","黑体","simsun";background-image: -moz-linear-gradient(top, #fff, #fbfbfb); border:1px solid #d9d9d9; width:48%; }
+.button_map:hover{ border:1px solid #cccccc;  cursor:pointer;
+background-image: -moz-linear-gradient(top, #fff, #f7f7f7);
+box-shadow:0px 2px 2px #c7c7c7;
+-moz-box-shadow:0px 2px 2px #c7c7c7;
+-webkit-box-shadow:0px 2px 2px #c7c7c7; color:#00b2d6;}
+
+
+
+/*搜索框样式*/
+.input_all{ border: medium none;  color:#333;}/*搜索框颜色置*/
+.input_all:hover{  -moz-box-shadow:0px 0px 3px #29a8bb;  -webkit-box-shadow:0px 0px 3px #29a8bb;  box-shadow:0px 0px 3px #29a8bb; }
+
+
+/*============列表样式 start============*/
+.city_citybox_jp{width:100%; position:relative;}
+.city_citybox{width:48%; position:relative;}
+.flysch_datebox{ position:relative; width:42%; margin-left:3%;}
+.date-input_no{ border:1px solid #e0e0e0; color:#999;}
+
+
+/*人数选择弹出*/
+
+.searchbox-people-option{ background-color: #fff;  border: 1px solid #d6d9dd;  border-radius: 6px;  box-shadow: 0 0 20px #34363d; outline: 0 none;  z-index: 101; width:250px !important; padding:10px 20px; }
+
+.dropdownB {width:auto !important; padding:0 4%;text-indent:0; height:33px; line-height:33px;}
+.dropdownB span{font-size:1.2em;}
+.dropdownB i {margin-right:0px;margin-top:17px;}
+.dropdownB ul{margin-top:-1px;}
+.dropdownB ul li{padding:3px 0 ; height:28px; line-height:28px; text-indent:10px;}
+
+.searchbox-people-option::before {  border-bottom-color: #d6d9dd; border-width: 11px; margin-left: -11px;}
+.searchbox-people-option::after, .searchbox-people-option::before {  border: medium solid transparent;  bottom: 100%; content: " ";  height: 0;  left: 50%;  pointer-events: none;  position: absolute; width: 0;}
+
+.searchbox-people-option::after {
+    border-bottom-color: #fff;
+    border-width: 10px;
+    margin-left: -10px;
+}
+.people-option-index{width:174px;}
+@media (max-width:1189px) {.people-option-index{ padding:10px; width:160px;}}
+.searchbox-people-option .note{ color:#858a99;}
+
+.searchbox-people-option label{ line-height:36px; clear:both; display:block;}
+.searchbox-people-option label i{ margin-top:7px;}
+.people-info-disabled {border:1px solid #e0e0e0 !important; color: #999 !important;}
+
+.adultIcon, .childIcon, .infantIcon{ background:url(../images/people-icon.png) no-repeat; display: inline-block; height: 18px; margin-top: 8px; width: 13px;}
+.adultIcon{ background-position:-0px 2px;}
+.childIcon{ background-position:-0px -34px;}
+.infantIcon{ background-position:-0px -70px;}
+
+.searchbox-people-option label input[type="text"]{ border-style: solid none; border-width:1px 0px; border-color:#d8dbe5; border-color:#d8dbe5 -moz-use-text-color; background:none; font-size:14px; text-align:center;  width:40px; height:24px; padding:0; margin:0 -1px;}
+
+
+/*==========人数下拉选择框==========*/
+.dropdown{ height:34px; line-height:34px; background:#fff; position:relative; border:1px solid #29a8bb; width: auto; padding:0 10px;}
+@media (max-width:1189px) {.dropdown{ height:34px; line-height:34px; background:#fff; position:relative; border:1px solid #29a8bb; width:100%; padding:0 8px;}}
+.dropdown i{margin-top:16px; }
+.dropdown em {margin-right:8px; *margin-left:10px; margin-top:2px; font-style:normal; float:right; display:block; color:#666;}
+.people-info{ background:#fff;  border:1px solid #29a8bb; margin-right:5px; position:relative; float:right; height:33px; width:65px; }
+.people-info-no{ background:#fff; border:1px solid #e0e0e0; color:#999; margin-right:5px; position:relative; float:right; height:34px; width:65px; }
+.people-info-no input, .people-info-no span{color:#999;}
+@media (max-width:1189px) {.people-info, .people-info-no{width:58px;  margin-right:5px;}}
+.people-info-list{ width:64px;}
+@media (max-width:1189px) {.people-info-list{ width:55.2px;}}
+
+/*下拉选择框*/
+.dropdownlist{  background-color:#fff; position:absolute; left:-1px; top:-1px; z-index:500; color:#666; cursor:pointer; display:none;  border:1px solid #999999; -moz-box-shadow:1px 1px 1px #d6d6d6 inset; -webkit-box-shadow:1px 1px 1px #d6d6d6 inset;  box-shadow:1px 1px 1px #d6d6d6 inset; width:100%;text-indent:10px;}
+.dropdownlist li{ width:100%; text-align:left;}
+.dropdownlist li.on{ background-color:#F2F2F2; color:#666; text-align:left; }
+
+.dropdownlist-hover{  border:1px solid #29a8bb; -moz-box-shadow:1px 1px 1px #c7c7c7 inset;  -webkit-box-shadow:1px 1px 1px #c7c7c7 inset;  box-shadow:1px 1px 1px #c7c7c7 inset; box-shadow:0px 0px 3px #29a8bb;}
+
+.dropdownlist-cabin {top:0;left: 0;}
+.dropdownlist-cabin li {height: 36px;line-height: 36px;}
+
+/*联程*/
+.home_searchA .rommu{ padding:5px 3% 5px 0; width:100%; height:40px; float:left; clear:both; }
+.search-multi-city .route-destination, .search-multi-city .route-origin {  float: left; position: relative;  width: 34%;}
+.search-multi-city .route-date { float: left;  margin-left: 1%;  position: relative; width: 23%;}
+
+.search-multi-city .route-triangle{ float:left; width:2%; margin-left:1%; height: 16px; margin-top: 5px; text-align: center;
+    position: relative;}
+.search-multi-city .route-triangle .triangle-icon{ border-radius:3px; height:0;  width:0;  overflow: hidden;  font-size: 0; line-height: 0; border-color: transparent transparent transparent #898294; border-style: dashed   dashed dashed solid; border-width:10px;
+    position: absolute;left:-1px;top:3px; }
+
+.search-multi-city .remove-route-button { background:transparent; border:none;  cursor: pointer; float: left; height: 36px; margin: 0; outline: 0 none; padding: 0; width: 5%;}
+
+.search-multi-city .remove-route-button .route-close-icon { background:url(../images) no-repeat -93px -188px; width:20px; height:20px; display:inline-block;margin:8px 9px;}
+.search-multi-city .remove-route-button.disabled .route-close-icon{  background:url(../images) no-repeat 1px -188px; width:20px; height:20px; display:inline-block;}
+.search-multi-city .add-route-button { background: rgba(0, 0, 0, 0); border: 1px solid #7fd7e8; border-radius: 4px; color: #7fd7e8; cursor: pointer; display: block; font-size: 16px; font-weight: 700; margin: 0 auto 18px; max-width: 450px; outline: 0 none; padding: 8px; width: 100%;}
+.search-multi-city .add-route-button:hover{ background-color:#7fd7e8; color:#1b1524;}
+

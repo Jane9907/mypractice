@@ -1,0 +1,122 @@
+@charset "utf-8";
+* {
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: #fff;
+}
+#banner {
+	background: url(../images/6.jpg) no-repeat;
+	padding-top: 40px;
+	min-height: 185px;
+	background-size: 100% auto;
+	margin: -2.12766vw -2.34043% 24px;
+}
+#banner .title {
+	background: url(../images/logo.png) no-repeat;
+	height: 128px;
+	margin-left: auto;
+	width: 400px;
+	margin: auto;
+}
+#denglu-page #login {
+	float: left;
+	min-height: 330px;
+	width: 30%;
+	padding: 2.5em;
+	margin-left: 35%;
+	border: 1px solid #ccc;
+	margin-top: 40px;
+}
+.row {
+	align-items: center;
+	position: relative;
+	margin-bottom: 2.5em;
+}
+.label {
+	align-items: center;
+	width: 100%;
+	color: #636363;
+	font-size: .8125em;
+	line-height: 1.84615em;
+}
+.username {
+	width: 100%;
+	height: 41px;
+	padding: 0 10px;
+	border: none;
+	border-radius: 1px;
+	border-bottom: 1px #e96b45 solid;
+	-webkit-appearance: none;
+	font-size: 1em;
+	line-height: 1.875em;
+}
+.check {
+	font-family: 'Arial black';
+	font-weight: bolder;
+	margin-right: 5px;
+	padding-right: 0;
+}
+.submit {
+	display: block;
+	width: 130px;
+	height: 45px;
+	background: #D23C0F;
+	color: #fff;
+	border: 1px solid #D23C0F;
+	text-align: center;
+	float:left;
+	margin-left: 20px;
+}
+.zhuce {
+	display: block;
+	width: 130px;
+	height: 45px;
+	background: #D23C0F;
+	color: #fff;
+	border: 1px solid #D23C0F;
+	text-align: center;
+	margin-left: 30px;
+	float: right;
+	margin-right: 30px;
+}
+.psw {
+	width: 100%;
+	height: 41px;
+	padding: 0 10px;
+	border: none;
+	border-radius: 1px;
+	border-bottom: 1px #e96b45 solid;
+	-webkit-appearance: none;
+	font-size: 1em;
+	line-height: 1.875em;
+}
+#banner p {
+	color: #fff;
+	text-align: center;
+	font-size: 1.5em;
+	line-height: 2em;
+}
+#denglu-page {
+	max-width: 1280px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	background: #f7f7f7;
+	height: 800px;
+
+	border-bottom: 3px #eee solid;
+}
+#denglu-page #title {
+	text-align: center;
+	color: #333;
+	font-size: 1.125em;
+	line-height: 1.33333em;
+	margin-bottom: .75em;
+}
+#forms form {
+	width: 240px;
+	margin-left: 30px;
+	margin-top: 30px;
+}

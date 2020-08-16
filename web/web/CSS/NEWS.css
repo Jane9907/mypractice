@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;            /*  去掉所有标签的marign和padding的值  */
+	}
+body{
+	font-size:12px;
+	line-height:24px;/*行高设为24*/
+    text-algin:center;        /* 页面内容居中 */
+	}
+#news{
+	max-width: 1280px;
+margin-left: auto;
+margin-right: auto;
+position: relative;
+margin-bottom: 40px;
+}
+#con1{
+	list-style:none; 
+	font-size:2em;
+	line-height:2;
+	          /*  去掉ul标签默认的点样式  */
+	}
+#con2{
+	list-style:none; 
+	font-size:2em;
+	line-height:2;
+	          /*  去掉ul标签默认的点样式  */
+	}
+#con1 li{
+	border-bottom:1px #eee solid;
+
+}
+#Box #card{
+	font-family:"Microsoft JhengHei";
+}
+#Box #card a{
+padding: 3.44828% 3.44828vw;	
+}
+#card #imgs{
+	margin-top:12px;
+	width:80px;
+	height:80px;
+	flex:0 0 65px;
+	
+}
+#card #imgs img{
+	width:80px;
+	height:80px;
+
+}
+#card #fonts{
+	color: #212121;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+	font-size: 0.5em;
+	padding-left: 3.44828%;
+	
+}
+#con2 li{
+	border-bottom:1px #eee solid;
+}
+
+#book{
+    width:399px;
+	height:224px;
+	margin-left:auto;         /* firefox下居中 */
+	margin-right:auto;
+	text-align:left;
+
+}
+#book-t{
+	width:399px;
+	height:64px;
+	overflow:hidden;  /* 这个一定要加上，内容超出的部分要隐藏，免得撑高头部 */
+	background:#999;
+}
+#book-t p{
+	margin-top:20px;
+	text-align:center;
+	font-size:30px;
+	font-weight:bold;
+	
+}
+#book-d{
+	width:399px;
+    height:16px;
+	background:#CCC;
+    overflow:hidden;  
+}
+#Box{
+	height:500px;
+	width:100%;
+	margin-left:35px;
+	margin-top:13px;
+	margin-bottom:50px;
+	overflow:hidden;
+
+}
+.Newsp{
+
+	padding-left:90px;
+	text-align:left;
+	font-size:1.7em;
+	line-height:3em;
+	
+}
+#Newsa:hover{
+	text-decoration:none;
+}
+	

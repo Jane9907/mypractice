@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+.copyright-info-blk{
+	    padding:15px 0;
+	    background:#d3d3d4;
+		border:0;
+		font-size:100%;
+	max-width: 1280px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+.copyright-info-blk .info{
+	    color: #4f4f4f;
+    text-align: center;
+    font-size: 1.25em;
+    line-height: 1.38462em;
+}
