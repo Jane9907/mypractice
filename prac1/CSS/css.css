@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+	body {
+		
+ 
+    background: linear-gradient(left, red 0%, orange 10%, yellow 90%, violet 100%);
+ 
+    background: -ms-linear-gradient(left, red 0%, orange 10%, yellow 90%, violet 100%);
+ 
+    background: -webkit-linear-gradient(left, red 0%, orange 10%, yellow 90%, violet 100%);
+ 
+    background: -moz-linear-gradient(left, red 0%, orange 10%, yellow 90%, violet 100%);
+
+	}
+
+	h1 {
+        font-family: "Arial", sans-serif;
+        font-size: 85px;
+        text-align: center;
+        font-weight: bold;
+    	color:#FF3;
+    	margin-top: 1200px;
+    }
+	h2 {
+        font-family: "Arial", sans-serif;
+        font-size: 65px;
+        text-align: center;
+        font-weight: bold;
+    	color:#FF3;
+    	margin-top: 50px;
+    }
+
+
+    .text {
+        position:relative;
+    }
+    img{
+            width: 1700px;
+            height: 1250px;
+			text-align: center;
+			margin-top: 200px;
+        }
+
+
+    span {
+    	  text-shadow: 
+    	  	0 -1px 0 #858585,
+              
+               
+               0 1px 10px rgba(0,0,0,.6),
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.2),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 7px 10px rgba(0,0,0,.25),
+               0 15px 10px rgba(0,0,0,.2),
+               0 25px 15px rgba(0,0,0,.15);
+    }
+
+//气球动画
+function myfn(o,t){ 
+    var n=0;
+    var status=0;
+    setInterval(function(){
+        var top1=o.offset().top;//40
+        n++;
+        if(status==0){
+            o.offset({top:top1+1});
+        }else{
+            o.offset({top:top1-1});
+        }
+        if(n==20){
+            status=status==0 ? 1: 0;
+            n=0;
+        }
+    },t);
+}; 
+$('.cardList li').each(function(index) {
+    if(index%2==1){
+        time=70;
+    }else if(index%2==2){
+        time=30;
+    }else{
+        time=50;
+    }
+    myfn($(this),time);
+});
+
